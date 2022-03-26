@@ -4,6 +4,7 @@ go 1.16
 
 require (
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
+	github.com/astaxie/beedb v0.0.0-20141221130223-1732292dfde4
 	github.com/atotto/clipboard v0.1.2
 	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
 	github.com/bitly/go-simplejson v0.5.0
@@ -22,12 +23,15 @@ require (
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/olivere/elastic v6.2.31+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.1.3
+	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/xxjwxc/gowp v0.0.0-20200603130651-4d7368b0e285
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb
+	golang.org/x/sync v0.0.0-20190423024810-112230192c58
+	golang.org/x/sys v0.0.0-20210514084401-e8d321eab015 // indirect
 	golang.org/x/text v0.3.3
 	google.golang.org/grpc v1.29.1
 	gopkg.in/eapache/queue.v1 v1.1.0
